@@ -1,0 +1,15 @@
+The base model I used is the helsinki-opus-nmt-en-ru and helsinki-opus-ru-en model.
+Initialsize of the model- 76.2M params(290.5MB)
+Documentation:
+https://huggingface.co/Helsinki-NLP/opus-mt-en-ru
+testset 	                BLEU 	chr-F
+newstest2012.en.ru 	      31.1 	0.581
+newstest2013.en.ru 	      23.5 	0.513
+newstest2015-enru.en.ru 	27.5 	0.564
+newstest2016-enru.en.ru 	26.4 	0.548
+newstest2017-enru.en.ru 	29.1 	0.572
+newstest2018-enru.en.ru 	25.4 	0.554
+newstest2019-enru.en.ru 	27.1 	0.533
+Tatoeba.en.ru 	          48.4 	0.669
+
+Size of the fine tuned model: 76.2M params(290.5MB)
