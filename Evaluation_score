@@ -1,0 +1,18 @@
+This is the evaluation result of the training done on my custom dataset.
+
+Translation Model for Russian to English:
+
+{'eval_loss': 0.5749892592430115,
+ 'eval_bleu': 62.272761634423446,
+ 'eval_runtime': 384.7124,
+ 'eval_samples_per_second': 36.089,
+ 'eval_steps_per_second': 0.564,
+ 'epoch': 30.0}
+
+Translation Model for English to Russian:
+
+{'eval_loss': 0.861848771572113,
+ 'eval_bleu': 38.897121515084024,
+ 'eval_runtime': 316.7757,
+ 'eval_samples_per_second': 43.829,
+ 'eval_steps_per_second': 0.685}
