@@ -4,35 +4,35 @@ import unicodedata
 
 app = Flask(__name__)
 
-# Load EN to RU model
+# english_to_russian_model
 tokenizer_en_ru = AutoTokenizer.from_pretrained("Gopal1853/Gopal-finetuned-custom-en-to-ru")
 model_en_ru = AutoModelForSeq2SeqLM.from_pretrained("Gopal1853/Gopal-finetuned-custom-en-to-ru")
 
-# Load RU to EN model
+# russian_to_English_model
 tokenizer_ru_en = AutoTokenizer.from_pretrained("Gopal1853/Gopal-finetuned-custom-ru-to-en")
 model_ru_en = AutoModelForSeq2SeqLM.from_pretrained("Gopal1853/Gopal-finetuned-custom-ru-to-en")
 
-# Load EN to DE model
+# english_to_german_model
 tokenizer_en_de = AutoTokenizer.from_pretrained("Gopal1853/Gopal-finetuned-custom-en-de")
 model_en_de = AutoModelForSeq2SeqLM.from_pretrained("Gopal1853/Gopal-finetuned-custom-en-de")
 
-# Load DE to EN model
+# german_to_english_model
 tokenizer_de_en = AutoTokenizer.from_pretrained("Gopal1853/Gopal-finetuned-custom-de-en")
 model_de_en = AutoModelForSeq2SeqLM.from_pretrained("Gopal1853/Gopal-finetuned-custom-de-en")
 
-# Load EN to ES model
+# english_to_spanish_model
 tokenizer_en_es = AutoTokenizer.from_pretrained("Helsinki-NLP/opus-mt-en-es")
 model_en_es = AutoModelForSeq2SeqLM.from_pretrained("Helsinki-NLP/opus-mt-en-es")
 
-# Load ES to EN model
+# spanish_to_english_model
 tokenizer_es_en = AutoTokenizer.from_pretrained("Helsinki-NLP/opus-mt-es-en")
 model_es_en = AutoModelForSeq2SeqLM.from_pretrained("Helsinki-NLP/opus-mt-es-en")
 
-# Load EN to FR model
+# english_to_french_model
 tokenizer_en_fr = AutoTokenizer.from_pretrained("Gopal1853/marian-finetuned-kde4-en-to-fr")
 model_en_fr = AutoModelForSeq2SeqLM.from_pretrained("Gopal1853/marian-finetuned-kde4-en-to-fr")
 
-# Load EN to IT model
+# english_to_italian_model
 tokenizer_en_it = AutoTokenizer.from_pretrained("Gopal1853/Gopal-finetuned-custom-en-to-it")
 model_en_it = AutoModelForSeq2SeqLM.from_pretrained("Gopal1853/Gopal-finetuned-custom-en-to-it")
 
