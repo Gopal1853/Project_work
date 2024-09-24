@@ -1,6 +1,20 @@
 # Project_work
 Hello Everyone, this repository contains the C-Driven language translator for 8 language pairs:
 EN-FR,EN_RU,EN_DE,EN_ES,EN_IT,DE_EN,RU_EN,ES_EN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Language used - Python and C
 Developed in Linux Ubuntu 22.4
 Framework and library Used -  Pytorch, Flask and Curl
